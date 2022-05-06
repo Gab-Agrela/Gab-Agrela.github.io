@@ -3,32 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfólio</title>
+    <style>
+        
+        h1{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 2em;
+            text-align: center;
+            color: #0077b6;
+        }
+
+        body{ 
+            text-align: center;
+            background-color: #03045e;
+            font-size: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #caf0f8;
+        }
+        
+        p{
+
+        }
+
+       
+        .titulo{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1.5em;
+            color: #00b4d8;
+        }
+
+        a:link{
+            color: #caf0f8;
+            text-decoration: none;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+        a:visited{
+            color: #caf0f8;
+            text-decoration: none;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        a:hover {
+            color: #03045e;
+            background-color: #caf0f8;
+        }
+        
+
+    </style>
 </head>
 <body>
     <h1>Gabriel Agrela Barbosa</h1>
     
-    <h3>Sumário</h3>
-    <a href="#fotoPerfil"><em>Imagem de Perfil</em></a><br>
-    <a href="#descricao"><em>Descrição</em></a><br>
-    <a href="#listaHabilidade"><em>Lista Habilidades</em></a><br>
-    <a href="#links"><em>Links Úteis</em></a><br><br>
+    <h3 class="titulo">Sumário</h3>
+    <a class="links" href="#fotoPerfil">Imagem de Perfil</a><br>
+    <a class="links" href="#descricao">Descrição</a><br>
+    <a class="links" href="#listaHabilidade">Lista Habilidades</a><br>
+    <a class="links" href="#links">Links Úteis</a><br><br>
     
-    <h3>Imagem de Perfil</h3>
+    <h3 class="titulo">Imagem de Perfil</h3>
     <img id="fotoPerfil" src="profile.jpg" alt="Foto de perfil de Gabriel Agrela Barbosa" width="250px" >  
 
-    <h3>Desrição</h3>
+    <h3 class="titulo">Descrição</h3>
     <p id="descricao"> Sou brasileiro e residente de São João Del Rei, cidade situada no estado de Minas Gerais</p>
 
-    <h3>Lista de Habilidades</h3>
+    <h3 class="titulo">Lista de Habilidades</h3>
     <ul id="listaHabilidade">
-        <li><strong>Proatividade</strong></li>
+        <li>Proatividade</li>
         <li>Criatividade</li>
         <li>Trabalho em Grupo</li>
         <li>Comunicação</li>
     </ul>
 
-    <a href="#fotoPerfil"><em>Imagem de Perfil</em></a><br>
-    <a id="links" href="https://ge.globo.com/" target="_blank"><em>Globo Esporte</em></a>
+    <a class="links" href="#fotoPerfil"><Imagem de Perfil</a><br>
+    <a class="links" href="https://ge.globo.com/" target="_blank">Globo Esporte</a>
 
 </body>
 </html>
